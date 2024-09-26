@@ -5,5 +5,5 @@ No Tailwind, Bootstrap or Ember
 (PS: I'm a psychopath, I know 🙃)
 
 Use the
-```git clone rrohithram/rrohithram.github.io```
+```gh rep clone rrohithram/rrohithram.github.io```
 command to use this site as a base!

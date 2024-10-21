@@ -1,4 +1,3 @@
-/* Global Styles */
 html, body {
     height: 100%;
     margin: 0;
@@ -85,7 +84,6 @@ body {
 
 .about-body h1, .projects-body h1, .contact-body h1 {
     font-size: 2.5rem;
-    color: #272727;
 
 }
 

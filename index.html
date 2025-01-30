@@ -3,52 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <title>Rohith Ram | Frontend Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="https://rrohithram.github.io/assets/id-card.png">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
-    <title>Rohith Ram</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navbar-main">
-        <h1>Rohith Ram</h1>
-        <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="navbar-links" id="navbar-links">
-            <p class="navbar-link"><a href="https://rrohithram.github.io/about/#about-section">About</a></p>
-            <p class="navbar-link"><a href="https://rrohithram.github.io/about/#project-section">Projects</a></p>
-            <p class="navbar-link"><a href="https://rrohithram.github.io/about/#contact-section">Contact</a></p>
-        </div>
-    </div>
-
-    <div class="main-body">
-        <div>
-            <img class="main-image" src="https://rrohithram.github.io/assets/pfp.png" alt="Rohith Ram">
-        </div>
-        <div class="main-text">
-            <h2>Hey👋</h2>
-            <h1>I'm Rohith✨</h1>
-            <h2>And, I'm a 
-                <font color="#272727">Front End Developer.</font>
-            </h2>
-            <br>
-            <div class="buttons-container">
-                <button class="main-button" onclick="window.location.href = 'https://drive.google.com/file/d/1bEcRDsI8Wu8c2pHhQaBoInMJVIJcsGsL/view?usp=sharing';">
-                    Download CV
-                </button>
-                <button class="side-button" onclick="window.location.href = 'https://rrohithram.github.io/about/';">
-                    About Me
-                </button>
+    <div class="splash-screen">
+        <div class="splash-content">
+            <div class="welcome-message">
+                <h1>Rohith Ram</h1>
+                <p>Welcome to my portfolio :)</p>
+                <div class="loading-bar">
+                    <div class="loading-progress"></div>
+                </div>
             </div>
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <nav>
+        <div class="nav-content">
+            <a href="index.html" class="logo">RR</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero fade-in">
+            <div class="profile-picture">
+                <img src="assets/IMG20241121121427.jpg" alt="Rohith Ram">
+            </div>
+            <div class="hero-content">
+                <h1>Rohith Ram</h1>
+                <h2>Frontend Developer 🚀</h2>
+                <p>Building beautiful, user-centric web experiences. Specializing in modern web technologies and responsive design.</p>
+                <div class="social-links">
+                    <a href="https://github.com/rrohithram" class="social-link">GitHub</a>
+                    <a href="https://www.linkedin.com/in/rohithram-r/" class="social-link">LinkedIn</a>
+                    <a href="https://x.com/rohith_recurred" class="social-link">Twitter</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills fade-in">
+            <h3>What I Do 👨‍💻</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h4>Frontend Development</h4>
+                    <p>Creating responsive and intuitive user interfaces with modern web technologies.</p>
+                    <div class="skill-list">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">GSAP</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h4>Web Applications</h4>
+                    <p>Building modern and scalable web applications with focus on performance.</p>
+                    <div class="skill-list">
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h4>UI/UX Design</h4>
+                    <p>Designing clean, modern and user-friendly experiences that looks elegant.</p>
+                    <div class="skill-list">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Tailwind</span>
+                        <span class="skill-tag">SCSS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="fade-in">
+        <p>Created with ❤️ by Rohith! ✨</p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>

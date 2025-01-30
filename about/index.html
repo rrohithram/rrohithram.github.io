@@ -3,81 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://rrohithram.github.io/about-style.css">
+    <title>About | Rohith Ram</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/8a79a5f72b.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="https://rrohithram.github.io/assets/id-card.png">
-    <title>About - Rohith Ram</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <div class="navbar-main">
-        <h1>Rohith Ram</h1>
-        <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="navbar-links" id="navbar-links">
-            <p class="navbar-link"><a href="https://rrohithram.github.io">Home Page</a></p>
-            <p class="navbar-link"><a href="#about-section">About</a></p>
-            <p class="navbar-link"><a href="#project-section" class="projects-link">Projects</a></p>
-            <p class="navbar-link"><a href="#contact-section">Contact</a></p>
-        </div>
-    </div>
-
-    <!-- About Section -->
-    <div class="about-body" id="about-section">
-        <h1>About Me &nbsp;<i class="fa-solid fa-circle-info"></i></h1>
-        <p>I am Rohith Ram, a passionate and dedicated frontend developer from the vibrant city of Coimbatore. My journey into the world of coding began with a deep curiosity about the inner workings of websites and applications, which soon blossomed into a fulfilling hobby.
-        </p>
-        <p>With a solid foundation in front-end, I have honed my skills to create seamless, dynamic web applications that are both efficient and user-friendly. My expertise spans a variety of programming languages and frameworks, allowing me to tackle diverse projects with confidence and precision.
-        </p>
-    </div>
-
-    <div class="proj" id="project-section">
-        <h1>Projects 🚀</h1>
-        <br>
-        <div class="projects">
-            <div class="project-item">
-                <h3 class="project-title">Forecastly</h3>
-                <p class="project-description">
-                    A weather forecasting app built using Flutter, leveraging the OpenWeatherMap's API key to display current and future weather conditions.
-                </p>
-            </div>
-            <div class="project-item">
-                <h3 class="project-title">Convertly</h3>
-                <p class="project-description">
-                    A simple currency converter app which converts INR to USD which was built using flutter.
-                </p>
-            </div>
-            <div class="project-item">
-                <h3 class="project-title">Portfolio Website</h3>
-                <p class="project-description">
-                    A responsive portfolio showcasing my work, designed with a minimalistic approach and clean code.
-                </p>
+    <nav>
+        <div class="nav-content">
+            <a href="index.html" class="logo">RR</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
             </div>
         </div>
-    </div>
+    </nav>
 
+    <main class="about-page">
+        <section class="about-content fade-in">
+            <div class="profile-picture">
+                <img src="assets/IMG20241121121427.jpg" alt="Rohith Ram">
+            </div>
+            <h1>About Me</h1>
+            <div class="about-text">
+                <p>Hello! I'm Rohith Ram, a frontend developer from Coimbatore and a CSE student at SRM Institute of Science and Technology, Chennai with a passion for creating elegant, user-centric web applications. My approach to development focuses on simplicity and innovation, ensuring that every project I undertake delivers both functionality and aesthetic appeal.</p>
+                
+                <h2>My Journey</h2>
+                <p>My journey in web development began with a fascination for creating interactive experiences. Over the years, I've improved my skills in modern web technologies, always tried staying at the forefront of industry trends and best practices. This continuous learning approach helps me deliver cutting-edge designs.</p>
+                
+                <h2>My Expertise</h2>
+                <p>I specialize in frontend development, with a deep understanding of modern web technologies and best practices. My work is characterized by clean code, responsive design, and attention to detail. I believe in creating websites that not only look beautiful but also provide an intuitive user experience with a clean code base.</p>
+                
+                <h2>Technical Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-group">
+                        <h3>Frontend</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">GSAP</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3>UI Frameworks</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Tailwind CSS</span>
+                            <span class="skill-tag">Material UI</span>
+                            <span class="skill-tag">Bootstrap</span>
+                            <span class="skill-tag">Flutter</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Tools & Others</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Firebase</span>
+                            <span class="skill-tag">Debian & Arch</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <h2>Design Philosophy</h2>
+                <p>My design philosophy centers around minimalism and quick navigation. Every element in my projects serves a specific function, while looking minimalistic. I'm constantly exploring innovative design approaches from fellow developer minds while maintaining simplicity at the core.</p>
+                
+                <h2>Work Process</h2>
+                <div class="process-steps">
+                    <div class="process-step">
+                        <h3>1. Discovery</h3>
+                        <p>Researching and gathering ideas for a project which serves a meaningful purpose.</p>
+                    </div>
+                    <div class="process-step">
+                        <h3>2. Planning</h3>
+                        <p>Creating comprehensive project roadmaps and using UI tools like Figma to create a base layout for the project.</p>
+                    </div>
+                    <div class="process-step">
+                        <h3>3. Development</h3>
+                        <p>Writing clean, maintainable code with a focus on performance and scalability.</p>
+                    </div>
+                    <div class="process-step">
+                        <h3>4. Testing</h3>
+                        <p>Making sure that there are no inconsistencies and bugs.</p>
+                    </div>
+                </div>
+                
+                <h2>Let's Connect</h2>
+                <p>I'm always interested in new projects and collaborations. Whether you have a specific project in mind or just want to connect, feel free to reach out through any of my social channels or drop me an email (rrohithram03@gmail.com).</p>
+            </div>
+        </section>
+    </main>
 
-    <div class="contact-body" id="contact-section">
-        <h1>Contact Me &nbsp;<i class="fa-solid fa-address-book"></i></h1>
-        <p>If you'd like to get in touch, feel free to reach out!</p>
-        <div class="contact-icons">
-            <a href="mailto:rrohithram03@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-            <a href="https://linkedin.com/in/rohithram-r" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/rrohithram" target="_blank"><i class="fa-brands fa-github"></i></a>
-            <a href="https://instagram.com/rohithram.r" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://x.com/rohith_recurred" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://g.dev/rohithram" target="_blank"><i class="fa-brands fa-google"></i></a>
-        </div>
-    </div>
-    
+    <footer class="fade-in">
+        <p>Created with ❤️ by Rohith! ✨</p>
+    </footer>
 
-    <script src="https://rrohithram.github.io/script.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

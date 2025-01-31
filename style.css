@@ -41,6 +41,7 @@ body {
 }
 
 .cursor.hover {
+    transition: all 0.05s ease;
     width: 40px;
     height: 40px;
     background-color: rgba(129, 140, 248, 0.1);
@@ -396,6 +397,7 @@ main {
 }
 
 .about-content {
+    
     background: var(--card-background);
     backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
